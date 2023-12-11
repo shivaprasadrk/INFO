@@ -1,0 +1,29 @@
+html{
+    scroll-behavior: smooth;
+}
+.fullscreen-landing{
+    background: white url("../../images/it.1.jpeg") no-repeat scroll center ;
+    height: 100vh;
+    background-size: cover;
+}
+.overlay{
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+}
+.search-box{
+    height: 50px;
+    width: 500px;
+}
+.subscribe-section{
+    background: rgb(171, 97, 97) url("../../images/it.1.jpeg") no-repeat scroll center;
+    background-size: cover;
+}
+.subscribe-overlay{
+    background-color: rgba(217, 112, 112, 0.5);
+    height: 100%;
+}
+@media (max-width: 576px) {
+    .search-box{
+        width: 300px;
+    }
+}
